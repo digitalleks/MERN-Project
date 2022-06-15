@@ -230,7 +230,7 @@ cd client
 ```bash
 vi package.json
 ```
-3. Add the key value pair in the package.json file 
+3. Add the key value pair in the package.json file(Note localhost below is replaced with the domain-name or IP address of AWS EC2 Instance we use for th eproject):
 ```javascript
 "proxy": "http://localhost:5000"
 ```
