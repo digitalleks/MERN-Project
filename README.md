@@ -428,6 +428,32 @@ let { todos } = this.state;
 
 export default Todo;
 ```
+In the src directory open the index.css
+```bash
+vim index.css
+```
+
+Copy and paste the code below:
+
+```css
+body {
+margin: 0;
+padding: 0;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+sans-serif;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+box-sizing: border-box;
+background-color: #282c34;
+color: #787a80;
+}
+
+code {
+font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+monospace;
+}
+```
 Run the React web app using the command below:
 
 ```bash
@@ -437,5 +463,5 @@ npm run dev
 The app should run without error as show in [react-status](https://user-images.githubusercontent.com/61512079/173194299-070bc689-4b2e-4ac7-bd50-337458c64cda.PNG)
  here.
 
-From the browser, the app is tested by opening http://ec2-18-190-154-2.us-east-2.compute.amazonaws.com:3000 ., the result should opened as shown [here.](https://user-images.githubusercontent.com/61512079/173194475-7c978086-c6fb-4fe4-9915-e768bc85c7f0.PNG)
+From the browser, the app is tested by opening http://ec2-18-190-154-2.us-east-2.compute.amazonaws.com:3000 ., the result should opened as shown [here.](https://user-images.githubusercontent.com/61512079/173855340-848851f3-d3aa-4a6d-87a5-cc0c8a6dc9df.PNG)
 
